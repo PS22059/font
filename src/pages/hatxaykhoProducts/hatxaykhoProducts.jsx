@@ -4,7 +4,7 @@ import * as ProductService from '../../services/ProductService';
 import { useSelector } from 'react-redux';
 import Loading from '../../components/LoadingComponent/Loading';
 import { useDebounce } from '../../hooks/useDebounce';
-import HatxaykhoProductsComponent from '../../components/HatxaykhoProductsComponent/HatxaykhoProductsComponent';
+import HatxaykhoProductsComponent from '../../components/hatxaykhoProductsComponent/hatxaykhoProductsComponent';
 import DanhmucDetail from '../ProductDetailsPage/DanhmucDetail/DanhmucDetail';
 import Footer from '../../components/FooterComponent/FooterComponent';
 import { WrapperButtonMore } from './style'
