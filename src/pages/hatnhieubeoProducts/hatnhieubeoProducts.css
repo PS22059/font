@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+article {
+  display: inline-block;
+}
+
+.products_page {
+  width: 95%;
+  margin: 50px auto;
+}
+
+
+.products_page .list_items{
+  /* margin: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 12px; */
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+}
+
+.products_page .list_items.product {
+  /* display: grid; */
+  border: 1px #ccc solid;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.products_page .list_items.product .slect_product .product_img a img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease;
+  object-fit: cover;
+  height: 400px;
+}
+
+.products_page .list_items.product .slect_product .product_img {
+  position: relative;
+  overflow: hidden;
+
+}
+.products_page .list_items.product .slect_product .product_img:hover a img {
+  transform: scale(1.1);
+}
+
+.products_page .list_items.product .slect_product .product_img:hover .cartIcon {
+  opacity: 1;
+  display: block;
+  /* z-index: 1; */
+}
+
+.products_page .list_items.product .slect_product .product_img_ a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  top: 0;
+  left: 0;
+}
+
+.products_page .list_items.product .slect_product .product_img .cartIcon {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  display: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10%;
+  /* padding: 44.2% 0; */
+  padding: 46% 2% 44.2%;
+  opacity: .6;
+  /* transition: opacity 0.3s ease; */
+  cursor: pointer;
+  color: #fff !important;
+}
+
+.products_page .list_items.product .slect_product .product_img .cartIcon path {
+  color: #fff;
+}
+
+.products_page .list_items.product .slect_product .product_name .name {
+  color: #000;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.products_page .list_items.product .slect_product .product_name .name .starIcon path {
+  color: yellow;
+}
+
+.products_page .list_items.product .slect_product .product_name .name .price {
+  margin-top: 8px;
+  font-size: 20px;
+}
+
+.soluong_products {
+    color: #000;
+    margin-left: 2.5%;
+    margin-top: 40px;
+}
+
+

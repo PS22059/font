@@ -1,0 +1,4 @@
+.select_nav_left a img{
+    max-width: 100px;
+    object-fit: cover;
+}

@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menuDetail {
+    position: relative;
+    width: 100%;
+    box-shadow: 0.5px 0px 3px 0px #5c5c5c;
+    height: 80px;
+}
+
+.menuDetail ul {
+    height: 100%;
+    text-align: center;
+}
+
+.menuDetail ul li {
+    display: inline-block;
+    margin-top: 19px;
+   
+
+}
+
+.menuDetail ul li a {
+    display: block;
+    line-height: 40px;
+    padding: 0 20px;
+    border: 1px solid #240404;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 14px;
+    text-decoration: none;
+
+}
+
+.icon-down-danhmucDetail {
+    font-size: 14px;
+}
+
+.register-danhmucDetail {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background-color: #151414;
+    color: #fff;
+    /* margin-top: 92px; */
+    padding: 12px 0;
+    padding-top: 18px;
+    z-index: 1;
+}
+
+.register-danhmucDetail .text {
+    /* margin-top: 8px; */
+    font-size: 14px;
+}
+
+.register-danhmucDetail a {
+    color: #fff;
+    text-decoration: underline !important;
+    font-size: 14px;
+    display: block;
+    margin-top: 4px;
+}
+
+.page-detail {
+    width: 100%;
+    padding: 8px 60px;
+    padding-top: 50px;
+}
+
+.page-detail p a,
+.page-detail p .icon-right-page path {
+    color: #827070;
+    font-size: 14px;
+}
+
+.page-detail p .icon-right-page {
+    font-size: 14px;
+    margin-left: 8px;
+    margin-right: 12px;
+}

@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*font-size: 20px; */
+    /* color: #000 !important; */
+  }
+  
+  ul {
+    list-style: none;
+    margin-bottom: 0;
+  }
+  .select_nav_mid a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  input {
+    width: 263px;
+    height: 48px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    color: #3c3c43;
+    padding: 12px;
+  }
+  
+  .menu {
+    width: 100%;
+    /* position: fixed; */
+    z-index: 1;
+    top: 0;
+    background-color: #fff;
+  }
+  
+  
+  .select_nav_left {
+    margin-left: -52px;
+  }
+  
+  .select_nav_mid ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .menu .container-menu {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+  }
+  
+  .select_nav_mid .select_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .select_nav_mid .select_menu li {
+    margin-bottom: 0;
+  }
+  
+  .select_nav_mid .select_menu li a {
+    padding: 36px 0;
+    font-size: 20px;
+  }
+  
+  .select_nav_mid .select_menu li > a {
+    padding: 36px 0px;
+  }
+  
+  .select_nav_mid .select_menu li:hover a {
+    color: #3c3c43;
+  }
+  
+  .select_nav_right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .select_nav_right .search input {
+    display: none;
+    margin-top: 36px;
+    position: absolute;
+    top: 55px;
+    margin-left: -150px;
+    width: 340px;
+    box-shadow: 0.5px 0px 6px 0px #000;
+  }
+  
+  .select_nav_right .search:hover input {
+    display: block;
+  }
+  
+  .select_nav_left a img{
+    max-width: 100px;
+    object-fit: cover;
+}
+  .searchInput {
+    /* display: none; */
+    /* margin-top: 36px; */
+    position: absolute;
+    /* top: 55px; */
+    margin-left: -210px;
+    width: 300px;
+    box-shadow: 0.5px 0px 6px 0px #000;
+  }
+  
+  /* .select_nav_right .search:hover input {
+    display: block;
+  } */
+  
+  .search {
+    position: relative;
+    padding: 31px 0;
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+  }
+  
+  .select_nav_mid .select_menu .listGiay {
+    position: relative;
+    /* float: left;
+    background-color: #fff; */
+  
+  }
+  
+  .menuc2 {
+    display: none;
+    position: relative; /* Thêm dòng này để có thể sử dụng z-index */
+}
+.menuc2 ul {
+  list-style: none;
+  display: inline-block;
+  width: 100%;
+}
+
+.menuc2 ul li {
+  padding: 10px 20px !important; 
+}
+
+.select_nav_mid .select_menu > .listGiay:hover > .menuc2 {
+    display: block;
+    position: absolute;
+    top: 60px;
+    background-color: #fbfbfb;
+    z-index: 999; /* Số này có thể được điều chỉnh tùy thuộc vào ngữ cảnh cụ thể */
+    width: 200px;
+    /* height: 380px; */
+    left: 0;
+    /* margin-left: -254px; */
+    border-radius: 10px;
+    box-shadow: 0.5px 0px 6px 0px #000;
+    /* padding: 20px 40px; */
+}
+
+/* Các styles khác ở đây... */
+
+  .menuc2 .grid-3 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    position: relative;
+    z-index: -99;
+  }
+  
+  .meunc2 .grid-3 div img  {
+    /* display: block; */
+    /* margin-top: 40px; */
+  }
+  
+  .icon {
+    font-weight: 100;
+    font-size: 2.3rem !important;
+  }
+
+  .icon:hover {
+    cursor: pointer;
+    color: rgb(0, 132, 255) !important;
+  }
+
+.infoUser {
+    /* box-shadow: 0.5px 0px 6px 0px #000 !important; */
+}
+
+.infoUser p {
+    color: #000;
+}
+
+.infoUser p:hover {
+    cursor: pointer;
+    color: rgb(0, 132, 255);
+}
+
+.searchHeader input {
+    height: 40px !important;
+}
+
+.ant-popover-placement-bottom  {
+    box-shadow: 0.5px 0px 6px 0px #000;
+    padding-top: 0;
+    top: 88px !important;
+    left: 1190px !important;
+}
+
+.ant-popover-arrow {
+    display: none;
+}

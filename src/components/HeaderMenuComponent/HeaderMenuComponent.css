@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: #000;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  input {
+    width: 263px;
+    height: 48px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    color: #3c3c43;
+    padding: 12px;
+  }
+  
+  .menu {
+    width: 100%;
+    /* position: fixed; */
+    top: 0;
+    background-color: #fff;
+  }
+  
+  .menu .container-menu {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 !important;
+  }
+  
+  .select_nav_left {
+    margin-left: -52px;
+  }
+  
+  .select_nav_mid {
+  }
+  
+  .select_nav_mid .select_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+  }
+  
+  .select_nav_mid .select_menu li a {
+    padding: 36px 0;
+  }
+  
+  .select_nav_mid .select_menu li > a {
+    padding: 36px 0px;
+  }
+  
+  .select_nav_mid .select_menu li:hover a {
+    color: #3c3c43;
+  }
+  
+  .select_nav_right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    position: relative;
+    z-index: 1;
+}
+
+  
+.select_nav_right .search input {
+  display: none;
+  position: absolute;
+  top: 55px;
+  left: 50%; 
+  transform: translateX(-50%); 
+  width: 340px;
+  box-shadow: 0.5px 0px 6px 0px #000;
+}
+
+.select_nav_right .search:hover input {
+  display: block;
+}
+
+.search {
+  padding: 31px 0;
+}
+
+  
+  .select_nav_mid .select_menu .listGiay {
+    position: relative;
+    /* float: left;
+    background-color: #fff; */
+  
+  }
+  
+  .menuc2 {
+    display: none;
+  }
+  
+  .select_nav_mid .select_menu > .listGiay:hover > .menuc2 {
+    display: block;
+      position: absolute;
+      top: 61px;
+      background-color: #fbfbfb;
+      z-index: 1;
+      /* position: fixed; */
+      width: 1260px;
+      height: 380px;
+      left: 0;
+      margin-left: -254px;
+      /* margin-right: 40px; */
+      /* opacity: 0.9; */
+      border-radius: 10px;
+      box-shadow: 0.5px 0px 6px 0px #000;
+      padding: 60px 40px;
+  }
+  
+  .menuc2 .grid-3 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+  
+  .meunc2 .grid-3 div img  {
+    /* display: block; */
+    /* margin-top: 40px; */
+  }
+  
+  .icon {
+    font-weight: 100;
+    font-size: 1.3rem !important;
+  }

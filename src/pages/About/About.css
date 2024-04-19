@@ -1,0 +1,196 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.about {
+    /* margin-top: 92px; */
+}
+
+.about .sub-about {
+    text-align: center;
+    background-color: #fff;
+    /* padding: 40px; */
+    margin-left: 39%;
+    margin-right: 38%;
+    padding: 60px 70px 0;
+    margin-top: -160px;
+    position: absolute;
+    border-radius: 40px;
+    margin-bottom: 80px;
+    padding-bottom: 80px;
+}
+
+.about .sub-about p {
+}
+
+.about .sub-about h1 {
+    color: #000;
+    font-size: 44px;
+    font-weight: normal;
+}
+
+.about img {
+    width: 100%;
+    position: relative;
+}
+
+.about .bannerAbout {
+    height: 600px;
+}
+
+.about .sub-about ul {
+    padding-left: 0;
+}
+
+.about .sub-about ul li {
+    display: inline-block;
+}
+
+.about .sub-about ul li a {
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+}
+
+.about .background-slogan {
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 20px solid #fbdf9b;
+    padding: 80px 40px;
+    border-radius: 40px;
+}
+
+.about .background-slogan .slogan {
+    color: #000;
+}
+
+.about .background-slogan .slogan .sub-text {
+    color: #000;
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.about .background-slogan .slogan .text {
+    font-weight: bold;
+    color: #000;
+    font-size: 28px;
+}
+
+.about .background-slogan .slogan .author {
+    font-style: italic;
+    color: #000;
+    font-size: 18px;
+}
+.about .sub-background-top {
+    background-color: #fff;
+    margin-top: -28%;
+    padding-bottom: 80px;
+    margin-left: 37%;
+    margin-right: 37%;
+}
+
+
+.about .sub-background-bottom {
+    background-color: #fff;
+    margin-top: 18%;
+    padding: 40px 0;
+    margin-left: 37%;
+    margin-right: 37%;
+}
+
+.about .about-detail {
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 200px;
+}
+
+.about .about-detail .about-sports {
+    display: grid;
+    grid-template-columns: 40% auto;
+    gap: 20px;
+}
+
+.about .about-detail .about-sports .left h1,
+.about .about-detail .about-firefly .right h1 {
+    font-size: 44px;
+    font-weight: normal;
+}
+
+.about .about-detail .about-sports .left p,
+.about .about-detail .about-firefly .right p {
+    color: #000;
+    line-height: 32px;
+    width: 90%;
+}
+
+.about .about-detail .about-sports .right img,
+.about .about-detail .about-firefly .left img {
+    width: 80%;
+    border-radius: 60px;
+}
+
+.about .about-detail .about-firefly {
+    display: grid;
+    grid-template-columns: auto 40%;
+    gap: 20px;
+}
+
+.about .about-detail .about-firefly .left img {
+    margin-left: 156px;
+}
+
+.about-contact .col-6 p {
+    color: #000;
+}
+
+.about-contact .col-6 h1 {
+    font-size: 50px;
+    font-weight: normal;
+    margin-bottom: 24px;
+}
+
+.about-contact .col-6 .phone {
+    width:100%;
+}
+
+.phoneIcon {
+    margin-top: 8px;
+    background-color: #F4F0EC;
+    padding: 30px;
+    margin-right: 20px;
+    border-radius: 100%;
+    font-size: 40px;
+    box-shadow: -3.5px 4px 6px 0px #ccc;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+}
+.phoneIcon path {
+    color: #FF9E5E;
+}
+.r1{
+    display: flex;
+    flex-direction: row;
+}
+
+.about-contact {
+    display: grid;
+    grid-template-columns: auto 40%;
+    gap: 20px;
+}
+
+.about-contact .col-6 a {
+    padding: 16px 32px;
+    background-color: #292F36;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+   text-align: center;
+   text-decoration: none;
+}

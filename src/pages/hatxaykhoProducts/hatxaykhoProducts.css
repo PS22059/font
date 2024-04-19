@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+article {
+  display: inline-block;
+}
+
+.nike_products_page {
+  width: 95%;
+  margin: 50px auto;
+}
+
+
+.nike_products_page .list_items_nike {
+  /* margin: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 12px; */
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+}
+
+.nike_products_page .list_items_nike .product_nike {
+  /* display: grid; */
+  border: 1px #ccc solid;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.nike_products_page .list_items_nike .product_nike .slect_product_nike .product_img_nike a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  object-fit: cover;
+  /* height: 400px; */
+}
+
+.nike_products_page .list_items_nike .product_nike .slect_product_nike .product_img_nike {
+  position: relative;
+  overflow: hidden;
+
+}
+
+.nike_products_page .list_items_nike .product_nike .slect_product_nike .product_img_nike:hover a img {
+  transform: scale(1.1);
+}
+
+.nike_products_page .list_items_nike .product_nike .slect_product_nike .product_img_nike:hover .cartIcon {
+  opacity: 1;
+  display: block;
+  /* z-index: 1; */
+}
+
+.nike_products_page .list_items_nike .product_nike .slect_product_nike .product_img_nike a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  top: 0;
+  left: 0;
+}
+
+.nike_products_page .list_items_nike .product_nike .slect_product_nike .product_img_nike .cartIcon {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  display: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10%;
+  /* padding: 44.2% 0; */
+  padding: 46% 2% 44.2%;
+  opacity: .6;
+  /* transition: opacity 0.3s ease; */
+  cursor: pointer;
+  color: #fff !important;
+}
+
+.nike_products_page .list_items_nike .product_nike .slect_product_nike .product_img_nike .cartIcon path {
+  color: #fff;
+}
+
+.nike_products_page .list_items_nike .product_nike .slect_product_nike .product_name_nike .name_nike {
+  color: #000;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nike_products_page .list_items_nike .product_nike .slect_product_nike .product_name_nike .name_nike .starIcon path {
+  color: yellow;
+}
+
+.nike_products_page .list_items_nike .product_nike .slect_product_nike .product_name_nike .name_nike .price_nike {
+  margin-top: 8px;
+  font-size: 20px;
+}
+
+.soluong_products {
+    color: #000;
+    margin-left: 2.5%;
+    margin-top: 40px;
+}
+
+.btnMore {
+width: 100%;
+color: #9255FD;
+text-align: center;
+}
+
+.btnMore:hover {
+  color: #fff;
+  background-color: #9255FD;
+}

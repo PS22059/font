@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.subBanner {
+    position: relative;
+    margin-top: 80px;
+}
+
+.subBanner img {
+    width: 100%;
+}
+
+.subBanner .content {
+    position: absolute;
+    top: 0;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.subBanner .content h1 {
+    color: #fff;
+    margin-bottom: 12px;
+    font-size: 40px;
+}
+
+.subBanner .content p {
+    width: 50%;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.subBanner .content a {
+    padding: 8px 20px;
+    color: #000;
+    background-color: #fff;
+    font-size: 14px;
+    border-radius: 20px;
+}

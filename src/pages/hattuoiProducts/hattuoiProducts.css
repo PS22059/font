@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+article {
+  display: inline-block;
+}
+
+.mlb_products_page {
+  width: 95%;
+  margin: 50px auto;
+}
+
+
+.mlb_products_page .list_items_mlb {
+  /* margin: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 12px; */
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+}
+
+.mlb_products_page .list_items_mlb .product_mlb {
+  /* display: grid; */
+  border: 1px #ccc solid;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.mlb_products_page .list_items_mlb .product_mlb .slect_product_mlb .product_img_mlb a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  object-fit: cover;
+  /* height: 400px; */
+}
+
+.mlb_products_page .list_items_mlb .product_mlb .slect_product_mlb .product_img_mlb {
+  position: relative;
+  overflow: hidden;
+
+}
+
+.mlb_products_page .list_items_mlb .product_mlb .slect_product_mlb .product_img_mlb:hover a img {
+  transform: scale(1.1);
+}
+
+.mlb_products_page .list_items_mlb .product_mlb .slect_product_mlb .product_img_mlb:hover .cartIcon {
+  opacity: 1;
+  display: block;
+  /* z-index: 1; */
+}
+
+.mlb_products_page .list_items_mlb .product_mlb .slect_product_mlb .product_img_mlb a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  top: 0;
+  left: 0;
+}
+
+.mlb_products_page .list_items_mlb .product_mlb .slect_product_mlb .product_img_mlb .cartIcon {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  display: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10%;
+  /* padding: 44.2% 0; */
+  padding: 46% 2% 44.2%;
+  opacity: .6;
+  /* transition: opacity 0.3s ease; */
+  cursor: pointer;
+  color: #fff !important;
+}
+
+.mlb_products_page .list_items_mlb .product_mlb .slect_product_mlb .product_img_mlb .cartIcon path {
+  color: #fff;
+}
+
+.mlb_products_page .list_items_mlb .product_mlb .slect_product_mlb .product_name_mlb .name_mlb {
+  color: #000;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.mlb_products_page .list_items_mlb .product_mlb .slect_product_mlb .product_name_mlb .name_mlb .starIcon path {
+  color: yellow;
+}
+
+.mlb_products_page .list_items_mlb .product_mlb .slect_product_mlb .product_name_mlb .name_mlb .price_mlb {
+  margin-top: 8px;
+  font-size: 20px;
+}
+
+.soluong_products {
+    color: #000;
+    margin-left: 2.5%;
+    margin-top: 40px;
+}
+
+

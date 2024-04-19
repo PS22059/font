@@ -1,0 +1,44 @@
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.input-wrapper {
+    margin-bottom: 10px;
+}
+
+.input-wrapper label {
+    font-weight: bold;
+}
+
+button {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+.center {
+    text-align: center;
+}
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

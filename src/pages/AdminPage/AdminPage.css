@@ -1,0 +1,9 @@
+.menuItemAdmin .ant-menu-title-content,
+.menuItemAdmin .ant-menu-item .ant-menu-item-icon svg path {
+    color: #000 !important;
+}
+
+.menuItemAdmin .ant-menu-item:hover .ant-menu-title-content,
+.menuItemAdmin .ant-menu-item:hover .ant-menu-item-icon svg path {
+    color: #1890ff !important;
+}
